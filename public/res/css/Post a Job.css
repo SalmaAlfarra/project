@@ -1,0 +1,154 @@
+
+
+/* The Modal (background) */
+#Post1{
+  display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.863); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  #Post1-c{
+   /* background-color: #fefefe;*/
+   float: right;
+    padding: 45px;
+    width: 70%;
+    border-radius: 3px;
+  }
+    
+  /* The Close Button */
+  
+.close-r{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 10px;
+  height:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .close-r:hover{
+      transform: scale(1.2);
+  }
+  
+  .close-r svg{
+  width: 20px;
+  height:20px;
+  }
+
+
+
+.a1 {
+  height: auto;
+  width: auto;
+  background-color: #b6b6ce;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  padding: 16px 8px;
+}
+.a1 img {
+  margin-right: 8px;
+}
+.opentext {
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+}
+#jobtext {
+  color: #151665;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+::placeholder {
+  padding: 3px;
+  font-size: 12px;
+}
+#input input {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.fixed {
+  border: none;
+  background-color: #e4e4ed;
+}
+.three span {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  background-color: #e4e4ed;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 10px;
+}
+.threea a {
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  background-color: #e4e4ed;
+  border-radius: 5px;
+  padding: 2px 16px;
+  margin: 10px;
+  text-decoration: none;
+  color: #151665;
+}
+.threea .Export {
+  color: #fff;
+  background-color: #151665;
+}
+.jobtext {
+  color: #151665;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#Attachment {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  border: 1px dashed #757575;
+  border-radius: 7px;
+}
+#att {
+  margin: 10px 46%;
+}
+#addd {
+  font-size: 14px;
+  margin: 10px 43%;
+}
+#textar {
+  height: 160px;
+  width: 100%;
+  border: 1px solid #757575;
+  border-radius: 7px;
+  text-transform: capitalize;
+  resize: none;
+}
+#send {
+  height: 31px;
+  width: 146px;
+  background-color: #151665;
+  border-radius: 30px;
+  float: left;
+  margin: 15px;
+  color: #ffff;
+  font-size: 14px;
+}
+#send1 {
+  height: 30px;
+  width: 146px;
+  border-radius: 30px;
+  float: left;
+  margin: 15px;
+  color: #151665;
+}

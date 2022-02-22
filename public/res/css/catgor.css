@@ -1,0 +1,78 @@
+:root {
+    --lightgray: #efefef;
+    --blue: steelblue;
+    --white: #fff;
+    --black: rgba(0, 0, 0, 0.8);
+    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+  
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  #Creative{
+    font-size: 16px;
+    float: left;
+  }
+  .modal-dialog {
+    position: relative;
+    padding: 5px 0px 15px 15px;
+    width: 420px;
+    max-height: 480px;
+    border-radius: 5px;
+    background: var(--white);
+    overflow: auto;
+    cursor: default;
+    font-family: 'cairo',sans-serif;
+    color: #151665;
+    font-size: 12px;
+  }
+  
+  #Fields{
+      margin-bottom: 15px;
+      display: block;
+      font-size: 13px;
+  }
+  #checkbox{
+      height: 11px;
+  }
+  .modal-dialog > * {
+    padding: 1rem;
+  }
+  
+  
+  .modal-header {
+      float: right;
+  }
+  .modal-content{
+      padding-left:40px;
+  }
+  
+  .close-modal {
+    font-size: 1.5rem;
+    float: right;
+    border: none;  
+    background-color: #ffff;
+}
+  
+  .modal p + p {
+    margin-top: 1rem;
+  }
+ 

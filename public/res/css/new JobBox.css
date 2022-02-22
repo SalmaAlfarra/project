@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.option {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.option1 span {
+  margin-left: 15px;
+}
+.hr1 {
+  color: #151665;
+  background-color: #151665;
+}
+.hr2 {
+  color: #151665;
+  background-color: #151665;
+  opacity: 20%;
+  margin-top: 10px;
+}
+.contents-items {
+  position:absolute;
+  width: 350px;
+  height: auto;
+  right:85px;
+  margin-top: 25px;
+  padding-top: 5px;
+  background-color: #ffff;
+  margin-right: 40px;
+  opacity: 0;
+  color: #151665;
+  border-radius: 5px;
+  border: 0.5px solid #151665;
+  transition: all 0.5s;
+  font-family: 'cairo',sans-serif;
+  font-size: 14px;
+}
+
+.content-button {
+  width: auto;
+  height: auto;
+  border: none;
+  float: right;
+  background-color: #e4e4ed;
+}
+
+.content-button:focus {
+  box-shadow: none;
+  outline: none
+}
+
+
+.show-button {
+  opacity: 1
+}
+
+.items-list {
+  list-style: none;
+  padding-left: 9px
+}
+
+.items-list li {
+  padding: 6px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+a, #sel-prof{
+  color: #ffff;
+}
+.items-list li:hover{
+  color: #0090FF;
+}

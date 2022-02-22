@@ -64,7 +64,7 @@ Route::get('/galclint/project', function () {
 });
 
 Route::get('/galclint/singup', function () {
-    return view('galclint/singup');
+    return view('galclint/signup'); 
 });
 
 Route::get('/gal/addproject', function () {

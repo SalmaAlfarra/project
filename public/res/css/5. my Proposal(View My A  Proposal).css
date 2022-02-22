@@ -1,0 +1,167 @@
+#myModal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.603); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  #modcont{
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 18px 64px 24px 64px;
+    border: 1px solid #888;
+    width: 1164px; /* Could be more or less, depending on screen size */
+  }
+   /* The Close Button */
+   
+ .close{
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     cursor: pointer;
+     border-radius: 50%;
+     width: 50px;
+     height:50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     }
+     
+     .close:hover{
+         transform: scale(1.2);
+     }
+     
+     .close svg{
+     width: 20px;
+     height:20px;
+     }
+
+     #bord1{
+        height: auto;
+        width: 100%;
+        background-color: #E4E4ED;
+        padding: 18px 28px 24px 28px;
+        display: inline-block; 
+        margin-bottom: 15px;
+        border-radius: 7px;  
+    }
+    #budget{
+        float: right;
+        font-size: 22px;
+        color:#0090FF;
+    }
+    h2{
+        font-size: 16px;
+        color: #151665;
+        font-family: 'cairo',sans-serif;
+        float: left;
+        margin-bottom: 16px;
+    }
+    #c-budge{
+        display: block;
+        width: 100%;
+    }
+    
+    .form-check{
+        font-family: 'cairo',sans-serif;
+        display: inline-block;
+        width: 100%;
+
+    }
+    .form-check:checked{
+        color: #0090FF;
+        background-color: #0090FF;
+    }
+    #budget{
+        float: right;
+        font-size: 22px;
+        color:#0090FF;
+    }
+    #check{
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    #date-space{
+        color: #757575;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    #amount{
+        float: left;
+            width: 100%;
+            font-family: 'Cairo',sans-serif;
+            display: none;
+        
+        }
+        #price{
+            height: auto;
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-family: 'Cairo',sans-serif;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+        #price1{
+            height: 32px;
+            width: 140px;
+            background-color:#B6B6CE;
+            border-radius: 30px;
+            margin-left: 5px;
+            border: none;
+        }
+        #cent{
+            height: auto;
+            width: auto;
+            display: inline-block;
+
+        }
+        #long{
+            font-size: 16px;
+            color: #151665;
+            font-family: 'cairo',sans-serif;
+            float: left;
+            margin-bottom: 46px;
+        }
+        #time{
+            font-size: 14px;
+            font-weight: 700;
+            margin-left: 26px;
+            color: rgb(0, 0, 0);
+                    }
+    #b{
+        font-family: 'cairo',sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid #7575755b;
+    }
+    #Cover{
+        margin-top: 12px;
+        margin-bottom: 5px;
+        color: #151665;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #attch{
+        margin-top: 16px;
+        font-weight: 700;
+    }
+    #file{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    a{
+        text-decoration: none;
+    }

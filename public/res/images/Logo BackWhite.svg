@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="102" viewBox="0 0 165 102">
+  <g id="Logo_BackWhite" data-name="Logo BackWhite" transform="translate(-169 -30.793)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-500.56 -267.516)">
+      <g id="Layer_5" data-name="Layer 5" transform="translate(709.56 323.284)">
+        <path id="Path_1" data-name="Path 1" d="M747.927,494.637l-2.454,2.413-3.375-3.429-2.14-2.174L737.543,489l-2.025-2.059-1.279-1.3-10.011,9.709v30.535H709.56V522.44h11.226V493.89l13.511-13.1,3.465,3.522,2.2,2.238L742.38,489l2.133,2.167Z" transform="translate(-709.56 -474.969)" fill="#151665"/>
+        <path id="Path_2" data-name="Path 2" d="M883.815,464.5v32.5h-3.443v-31.05l-1.19-1.156L876.8,462.49l-2.467-2.4-3.59-3.49-5.6-5.451-4.374,4.421-4.509,4.556-2.42,2.449,0,0-2.2,2.228L850,466.452v30.555h-3.441V465.036l2.887-2.916,1.976-2,0,0,2.422-2.445,3.379-3.414L865.1,446.3l9.24,8.986,2.428,2.361,2.467,2.4,2.128,2.069Z" transform="translate(-823.442 -446.304)" fill="#151665"/>
+        <path id="Path_3" data-name="Path 3" d="M1016.654,523.258V526.7h-15.737V496.171l-9.744-9.329-2.887,2.9-2.43,2.439-1.541,1.547-4.125,4.141-2.438-2.43,4.376-4.393,1.261-1.266,2.428-2.439,2.5-2.513,2.8-2.806,13.242,12.677v28.557Z" transform="translate(-932.492 -475.996)" fill="#151665"/>
+      </g>
+      <g id="Layer_4" data-name="Layer 4" transform="translate(743.772 351.01)">
+        <path id="Path_4" data-name="Path 4" d="M912.291,633.575h3.441V614.039h8.319v19.536h3.441V610.6h-15.2Z" transform="translate(-912.291 -610.598)" fill="#0090ff"/>
+      </g>
+      <g id="Layer_3" data-name="Layer 3" transform="translate(738.371 298.309)">
+        <g id="Layer_6" data-name="Layer 6" transform="translate(0)">
+          <path id="Path_5" data-name="Path 5" d="M892.989,324.091l-2.66-4.864a14.723,14.723,0,0,0-4.959-4.959l-4.864-2.66c-.3-.163-.3-.429,0-.592l4.912-2.686a14.5,14.5,0,0,0,4.885-4.885l2.686-4.912c.163-.3.429-.3.592,0l2.694,4.926a14.438,14.438,0,0,0,4.864,4.864l4.925,2.694c.3.163.3.429,0,.592l-4.9,2.679a14.564,14.564,0,0,0-4.906,4.906l-2.679,4.9C893.419,324.389,893.152,324.389,892.989,324.091Z" transform="translate(-880.283 -298.309)" fill="#151665"/>
+        </g>
+      </g>
+    </g>
+    <text id="Sky_Architectural_Services" data-name="Sky Architectural Services" transform="translate(169 123.793)" fill="#0090ff" font-size="15" font-family="Cairo-Black, Cairo" font-weight="800"><tspan x="0" y="0">Sky</tspan><tspan y="0" xml:space="preserve" fill="#151665" font-family="Cairo-SemiBold, Cairo" font-weight="600"> Architectural Services</tspan></text>
+  </g>
+</svg>

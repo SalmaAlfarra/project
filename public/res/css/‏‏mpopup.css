@@ -1,0 +1,378 @@
+/* The Modal (background) */
+#mypopup {
+    display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.637); /* Black w/ opacity */
+   }
+   
+   /* Modal Content/Box */
+   .mypopup-content {
+    /* background-color: #fefefe;*/
+     margin: 30px auto; /* 15% from the top and centered */
+     width: 1260px; /* Could be more or less, depending on screen size */
+     min-height: 800px;
+     border-radius: 3px;
+   }
+   
+   /* The Close Button */
+   
+ .close{
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     cursor: pointer;
+     border-radius: 50%;
+     width: 50px;
+     height:50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     }
+     
+     .close:hover{
+         transform: scale(1.2);
+     }
+     
+     .close svg{
+     width: 20px;
+     height:20px;
+     }
+     .headin{
+         height: auto;
+         width: 100%;
+         float: left;
+     }
+     .per{
+         height: auto;
+         width: 25%;
+         float: left;
+         margin-left: 10px;
+     }
+     #img1{
+         border-radius: 64px;
+         padding: 5px;
+     }
+     .per2{
+         float: left;
+     }
+     .per3{
+         margin-left: 10px;
+         padding-top: 5px;
+         color: #ffff;
+     }
+     #na2{
+         text-decoration: none;
+         font-family: 'cairo',sans-serif;
+         font-weight: 700;
+         font-size: 14px;
+         margin-left: 25px;
+         color: #ffff;
+     }
+     #na1{
+         text-decoration: none;
+         margin-top: 7px;
+         font-family: 'cairo',sans-serif;
+         font-size: 16px;
+         font-weight: 500;
+         margin-left: 0px;
+         color: white;
+         float: left;
+     }
+     
+     #span1{
+         font-family: 'cairo',sans-serif;
+         font-size: 12px;
+         float: left;
+     }
+    
+ 
+      .mes{
+         margin-right: 8%;
+         float: left;
+ 
+     }
+     #na3 , #rep{
+         text-decoration: none;
+         font-family: 'cairo',sans-serif;
+         font-weight: bold;
+         color: #ffff;
+         font-size: 14px;
+     }
+     #img2{
+         padding-top: 10px;
+         top: 20px;
+         display: block;
+         margin: 0 auto;
+     }
+     #img2:hover{
+         transform: scale(1.2);
+     }
+     .view{
+         margin-top: 16px;
+         height: auto;
+         width: 100%;
+         float: left;
+         background-color: white;
+     }
+     .element{
+         width: 100%;
+         height: auto;
+     }
+     .element-img{
+         height: auto;
+         width: 100%;
+      display: block;
+      margin-bottom: 2px;
+ 
+     }
+     .element-p{
+        font-family: 'Cairo', sans-serif;
+        text-align: center;
+        background-color: white;
+        display: block;
+     }
+     .element-video{
+         height: auto;
+         width: 100%;
+     }
+     .reat-pro{
+         width: 100%;
+         padding-bottom: 18px;
+         height: auto;
+         background-color: #0090FF;
+         display: inline-block;
+         margin-top: 25px;
+         border-radius: 7px;
+         font-family: 'cairo',sans-serif;
+         text-align: center;
+         color: #ffff;
+         
+     }
+     #reat-h1{
+         text-decoration: none;
+         font-family: 'cairo',sans-serif;
+         font-size: 22px;
+         font-weight: 700;
+         text-align: center;
+         margin-top: 26px;
+     }
+     .targ{
+         width: 100%;
+         height: auto;
+         background-color: #ffff;
+         display:inline-block;
+         margin-top: 25px;
+         border-radius: 7px;
+         margin-bottom: 46px;
+     }
+     .inform{
+         height: auto;
+         width: 370px;
+         float: right;
+         margin-top: 25px;
+         margin-right: 46px;
+     }
+     .informa{
+         height: auto;
+         width: 90%;
+         background-color: #E6E6E6;
+         margin-bottom: 45px;
+         border-radius: 5px;
+         padding: 5px 10px 5px 15px;
+         font-family: 'cairo',sans-serif;
+         font-style: normal;
+ 
+ 
+     }
+    #informa-h3{
+         font-size: 15px;
+         font-weight: 500;
+         color: #151665;
+     }
+     #informa-p{
+         font-size: 12px;
+         font-weight: 500;
+     }
+     .coment{
+         height: 20px;
+         width: 720px;
+         display: inline-block;
+         margin-top: 20px;
+         margin-left: 45px;
+         margin-bottom: 45px;
+     }
+     .mycoment{
+         margin-bottom: 46px;
+         margin-bottom: 36px;
+     }
+     #intext{
+         height: 100px;
+         width: 600px;
+         margin-left: 15px;
+         border-radius: 5px;
+         
+     }
+      .myimg{
+         height: 86px; 
+         width:86px;
+         float: left;
+         border-radius: 72px;
+     }
+     #buttn2{
+         height: 32px;
+         width: 136px;
+         float: right;
+         border-radius: 32px;
+         background-color: #0090FF;
+         margin-top: 25px;
+         color: #ffff;
+         font-family: 'cairo';
+         font-style: normal;
+         border: none;
+     }
+     #buttn2:hover{
+         transform: scale(1.1);
+     }
+     .own{
+         width: 100%;
+         display:inline-block;
+         font-family: 'cairo',sans-serif;
+ 
+     }
+     #div{
+         height: auto;
+         width: 70%;
+         float: left;
+     }
+     #ownimg{
+         border-radius: 64px;
+         padding: 5px;
+         margin-left: 15px;
+     }
+     .own2{
+         float: left;
+     }
+     .own3{
+         margin-left: 10px;
+         height: 40px;
+         font-size: 10px;
+ 
+     }
+     .ona{
+         text-decoration: none;
+         margin-top: 5px;
+         font-family: 'cairo',sans-serif;
+         font-weight: 700;
+         font-size: 15px;
+         color: #151665;
+     }
+     #ownspan{
+         float: left;
+     }
+     .owner{
+         display: flex;
+     }
+   
+     .foll{
+         display: inline-block;
+         margin-left: 25px;
+     }
+     .buttn{
+         height: 28px;
+         width: 58px;        
+         font-weight: 700;
+         font-size: 8px;
+         text-decoration: none;
+         font-family: 'cairo',sans-serif;
+         color: #ffff;
+         border-radius: 20px;
+         background-color:#0090FF;
+         float: right;
+         margin-top: 15px;
+         border: none;
+     }
+     .buttn:hover{
+         transform: scale(1.2);
+     }
+ 
+     .made{
+         width: 100%;
+         display:inline-block;
+     }
+     #mimg{
+         border-radius: 64px;
+         padding: 5px;
+         margin-left: 20px;
+     }
+     .made1{
+         float: left;
+     }
+     .made2{
+         margin-left: 10px;
+         height: 40px;
+     }
+     .made3{
+         width: 20%;
+         text-decoration: none;
+         margin-top: 5px;
+         font-family: 'cairo',sans-serif;
+         font-weight: 700;
+         font-size: 15px;
+         color: #151665;
+         margin-left: 5px;
+     }
+     #span4{
+         top: -5px;
+         font-family: 'cairo',sans-serif;
+         font-size: 11px;
+         float: left;
+         top: -5px;
+         margin-left: 8px;
+         
+     }
+ 
+     .comment{
+         width: 100%;
+         height: auto;
+         display: inline-block;
+         margin-bottom: 30px;
+     }
+     .com1{
+         height: 72px;
+         width: 72px;
+         float: left;
+         margin-right: 10px;
+     }
+     .com2{
+         height: auto;
+         width: 620px;
+         float: left;
+         margin-left: 10px;
+     }
+     #na4{
+         text-decoration: none;
+         font-family: 'cairo',sans-serif;
+         font-weight: 700;
+         font-style: normal;
+ 
+     }
+     #bar{
+         height: auto;
+         width: 100%;
+         font-family: 'cairo',sans-serif;
+         font-size: 14px;
+     }
+     #span3{
+         font-family: 'cairo',sans-serif;
+         font-size: 12px;
+         font-style: normal;
+         margin-left: 36px;
+     }
+ 

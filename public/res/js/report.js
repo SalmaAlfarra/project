@@ -1,0 +1,47 @@
+/*
+const openPop = document.querySelector('.Image')
+const closePop = document.querySelector('.close')
+const wrapper = document.querySelector('.wrapper')
+const pbody = document.querySelector('body')
+
+
+openPop.addEventListener('click', () => {
+    wrapper.classList.add('active')
+    pbody.classList.add('active')
+    
+})
+
+closePop.addEventListener('click', () => {
+    wrapper.classList.remove('active')
+    pbody.classList.remove('active')
+
+})
+*/
+
+// Get the modal
+var report = document.getElementById("report");
+
+// Get the button that opens the modal
+var rbtn = document.getElementById("rep");
+
+// Get the <span> element that closes the modal
+var rspan = document.getElementsByClassName("close-r")[0];
+
+// When the user clicks on the button, open the modal
+rbtn.onclick = function() {
+    report.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+rspan.onclick = function() {
+    report.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+
+
